@@ -335,7 +335,7 @@ class KubernetesJob(object):
                                 #     )
                                 # )
                                 # if coreweave_gpu
-                                else None,
+                                # else None,
                                 node_selector=self._kwargs.get("node_selector"),
                                 restart_policy="Never",
 
